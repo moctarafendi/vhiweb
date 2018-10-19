@@ -1,0 +1,20 @@
+title = "Welcome"
+url = "/"
+layout = "default"
+is_hidden = 0
+
+[resources]
+js[] = "controls/auto-pager.js"
+js[] = "../vendor/isotope/imagesloaded.js"
+js[] = "../vendor/isotope/isotope.js"
+js[] = "pages/home.js"
+less[] = "pages/home.less"
+
+[session]
+security = "user"
+redirect = "login-register"
+
+[listsPost]
+==
+<h1>Home pages</h1>
+{% component 'listsPost' %}

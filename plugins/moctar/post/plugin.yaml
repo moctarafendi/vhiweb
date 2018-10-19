@@ -1,0 +1,6 @@
+plugin:
+    name: 'moctar.post::lang.plugin.name'
+    description: 'Custom Plugin by Moctar'
+    author: moctar
+    icon: oc-icon-location-arrow
+    homepage: ''

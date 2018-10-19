@@ -1,0 +1,46 @@
+1539950325a:1:{s:15:"site/header.htm";a:6:{s:8:"fileName";s:15:"site/header.htm";s:7:"content";s:490:"==
+<div class="row">
+    <div class="col-sm-9">
+        <h1 class="site-name">
+            <a href="{{ 'home'|page }}">{{ this.theme.site_name }}</a>
+        </h1>
+        <p class="site-motto">
+            {{ this.theme.site_motto }}
+        </p>
+            
+    </div>
+    
+</div>
+
+<div class="row">
+    <div class="col-sm-9">
+        <h1 class="site-name">
+            <a href="{{ 'home'|page }}">Home</a>
+        </h1>
+       
+            
+    </div>
+    
+</div>";s:5:"mtime";i:1539684347;s:6:"markup";s:486:"<div class="row">
+    <div class="col-sm-9">
+        <h1 class="site-name">
+            <a href="{{ 'home'|page }}">{{ this.theme.site_name }}</a>
+        </h1>
+        <p class="site-motto">
+            {{ this.theme.site_motto }}
+        </p>
+            
+    </div>
+    
+</div>
+
+<div class="row">
+    <div class="col-sm-9">
+        <h1 class="site-name">
+            <a href="{{ 'home'|page }}">Home</a>
+        </h1>
+       
+            
+    </div>
+    
+</div>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

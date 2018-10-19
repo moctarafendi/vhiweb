@@ -1,0 +1,5 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table moctar_post_posts'
+    - builder_table_create_moctar_post_posts.php

@@ -1,0 +1,18 @@
+{% set posts = __SELF__.onLoad %}
+
+<ul>
+    {% for post in posts %}
+    	{% if user.id == post.user_id %}
+        	<a href="{{ 'post'|page({ slug: post.slug }) }}" style="font-size: 24px;">{{ post.title }}</a>
+        {% endif %}
+        {% if user.id != post.user_id %}
+        	<a href="" style="font-size: 24px;">{{ post.title }}</a>
+        {% endif %}
+        <br>        
+        <img src="{{ post.image }}" alt="Image" >
+        <h4>{{ post.content }}</h4>
+    	<h6>Author: {{ post.name }}</h6>
+    	<h6>Published at: {{ post.published_at }}</h6>
+    	<br>
+    {% endfor %}
+</ul>

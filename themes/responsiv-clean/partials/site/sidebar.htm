@@ -1,0 +1,28 @@
+[blogPosts]
+pageNumber = "{{ :page }}"
+postsPerPage = 5
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "blog/category"
+postPage = "blog/post"
+==
+<div class="sidebar-close visible-sm visible-xs">
+    <a href="javascript:;" onclick="toggleSidebar()" class="close">&times;</a>
+</div>
+
+<div class="sidebar-segment hidden-sm hidden-xs">
+    <h2 class="site-name">
+        <a href="{{ 'home'|page }}">Home</a>
+    </h2>
+    {% if user %}
+    <br>
+    <h2 class="site-name">
+        <a href="{{ 'upload'|page }}">Upload</a>
+    </h2>
+    <br>
+    <h2 class="site-name">
+        <a href="" data-request="onLogout" data-request-data="redirect: '/login'">Logout</a>
+    </h2>
+    
+    {% endif %}
+</div>

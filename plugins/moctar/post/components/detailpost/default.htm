@@ -1,0 +1,13 @@
+{% set posts = __SELF__.show %}
+
+
+<ul>
+    {% for post in posts %}
+        <h1>{{ post.title }}</h1>
+        <br>        
+        <img src="{{ post.image }}" alt="Image" >
+        <h4>{{ post.content }}</h4>
+    	<h6>Author: {{ post.name }}</h6>
+    	<h6>Published at: {{ post.published_at }}</h6>
+    {% endfor %}
+</ul>
