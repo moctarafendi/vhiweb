@@ -3,5 +3,10 @@ url = "/post/:slug"
 is_hidden = 0
 
 [detailPost]
+
+[session]
+security = "user"
+redirect = "home"
 ==
+{% component 'session' %}
 {% component 'detailPost' %}
